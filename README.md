@@ -28,4 +28,5 @@ Understanding Kubernetes isn't just about knowing the components—it's about un
 Note: Ingress itself doesn't perform load balancing. The Ingress Controller (NGINX, Traefik, AWS Load Balancer Controller, etc.) implements the routing rules defined in the Ingress resource.
 
 
-<img width="1913" height="1010" alt="image" src="https://github.com/user-attachments/assets/b3226d39-7c52-4fe8-8d29-c59b6137a9ec" />
+<img width="1536" height="1024" alt="ingress" src="https://github.com/user-attachments/assets/24c6470a-5d61-47cd-841d-49c1abdb9b9c" />
+
