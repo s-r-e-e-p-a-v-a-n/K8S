@@ -13,7 +13,9 @@ Apply custom routing rules.
 Expose multiple Services through a single entry point, reducing cloud costs.
 Example
 Without Ingress:
-Service A → Load Balancer
+Service A → Load Balancer<img width="1536" height="1024" alt="ingress" src="https://github.com/user-attachments/assets/f1ff664b-3e1f-446e-9149-8a6e232a6de2" />
+<img width="1536" height="1024" alt="ingress" src="https://github.com/user-attachments/assets/c15e6dad-2164-4780-a6d1-d9fac6b471c1" />
+
 Service B → Load Balancer
 Service C → Load Balancer
 ➡️ Three cloud Load Balancers = Higher cost.
@@ -24,3 +26,8 @@ Multiple backend Services
 ➡️ A single entry point with advanced routing and lower infrastructure cost.
 Understanding Kubernetes isn't just about knowing the components—it's about understanding why they exist and which problems they solve.
 Note: Ingress itself doesn't perform load balancing. The Ingress Controller (NGINX, Traefik, AWS Load Balancer Controller, etc.) implements the routing rules defined in the Ingress resource.
+
+
+
+
+
